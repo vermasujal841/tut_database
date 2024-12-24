@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const express=require("express")
 
-mongoose.connect("mongodb+srv://admin:moshinaat123@cluster0.a6sak.mongodb.net/user_app?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongo url")
 const User = mongoose.model('Users', {name:String, email:String,password:String});
 const app=express();
 app.use(express.json())
