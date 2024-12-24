@@ -25,8 +25,6 @@ app.post("/signup", async function(req,res){
 })
 app.listen(3000);
 
-
-
 // A= CLIENT
 
 // B= SERVER
